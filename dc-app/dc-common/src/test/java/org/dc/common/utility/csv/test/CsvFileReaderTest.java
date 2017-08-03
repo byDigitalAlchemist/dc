@@ -10,11 +10,11 @@ public class CsvFileReaderTest {
 
 	@Test
 	public void readCsvFile(){
-		final String fileName = "J://DCHEMIST//CSV//test-csvfile.csv";
+		final String fileName = "D://INTERVIEW//CSV//test-csvfile.csv";
 		File csvFile = new File(fileName);
 		if(!csvFile.exists()){
-			CsvFileWriter.writeCsvFile("J://DCHEMIST//CSV//test-csvfile.csv");
+			CsvFileWriter.writeCsvFile("D://INTERVIEW//CSV//test-csvfile.csv");
 		}
-		CsvFileReader.readCsvFile("J://DCHEMIST//CSV//test-csvfile.csv");
+		CsvFileReader.readCsvFile("D://INTERVIEW//CSV//test-csvfile.csv");
 	}
 }
